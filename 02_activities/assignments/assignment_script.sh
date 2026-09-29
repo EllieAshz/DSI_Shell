@@ -59,7 +59,6 @@ do
 done
 
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
-rf -rf ./data
 
 ls ./data/raw | grep "ipaddr" | while read file
 do
